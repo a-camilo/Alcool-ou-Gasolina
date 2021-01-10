@@ -30,3 +30,10 @@ input{
   border-radius: 10px;
   color: beige;
 }
+.info{
+    width: 280px;
+    margin: 40px auto;
+    text-align: justify;
+    font-weight: bolder;
+
+}
