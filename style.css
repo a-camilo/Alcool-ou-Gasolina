@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: normal;
+}
+
+h2{
+    margin:  10px auto;
+    text-align: center;
+}
+input, label {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    height: 40px;
+    outline: none;     
+}
+input{
+    color: blue;
+    font-weight: bolder;
+}
+#respo{
+  background-color: rgb(67, 68, 75);  
+  margin:  10px auto;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  color: beige;
+}
