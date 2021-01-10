@@ -31,7 +31,8 @@ input{
   color: beige;
 }
 .info{
-    width: 280px;
+    max-width:250px;
+    height:auto ;
     margin: 40px auto;
     text-align: justify;
     font-weight: bolder;
