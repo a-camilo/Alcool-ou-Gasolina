@@ -37,5 +37,14 @@ input{
     padding: 10px;
     text-align: justify;
     font-weight: bolder;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    font-size: smaller;
 
 }
