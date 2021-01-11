@@ -42,7 +42,7 @@ input{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: auto;
+    margin:60px auto;
     width: 100%;
     max-width: 400px;
     font-size: smaller;
