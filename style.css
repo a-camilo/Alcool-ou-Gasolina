@@ -20,6 +20,8 @@ input, label {
 input{
     color: blue;
     font-weight: bolder;
+    text-align: center;
+    
 }
 #respo{
   background-color: rgb(67, 68, 75);  
@@ -42,7 +44,7 @@ input{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin:60px auto;
+    margin: auto;
     width: 100%;
     max-width: 400px;
     font-size: smaller;
