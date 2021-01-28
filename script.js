@@ -3,13 +3,14 @@
 var frame = document.getElementById('content')
 frame.style.display='flex'
 frame.style.flexDirection='column'
-frame.style.margin='auto'
+frame.style.margin=' 0 auto'
 frame.style.backgroundImage='linear-gradient(black, yellow)'
+frame.style.height='210px'
 frame.style.width='280px'
 frame.style.borderRadius='14px'
 frame.style.alignItems='center'
 frame.style.justifyContent='center'
-frame.style.height='auto'
+
 
 // Esta é a parte interna aonde insere os valores
 var form = document.getElementById('form')
@@ -36,10 +37,10 @@ function combustivel(){
     var gas =Number(comb_gasolina.value)
     var resultado = alc/gas
     var respo = document.getElementById('respo')
-    if(resultado <=0.7){
+    if(resultado < 0.7){
       respo.innerHTML=`O Alcool é a melhor opção ${resultado}`
      
-   }else if(resultado>0.7){
+   }else if(resultado>=0.7){
       respo.innerHTML=`A gasolina é a melhor opção ${resultado}`
       
    }
