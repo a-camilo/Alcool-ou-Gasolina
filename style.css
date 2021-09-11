@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: normal;
+    
+}
+body{
+    background: rgb(235, 233, 232);
 }
 #content{
     box-shadow: 8px 3px 10px rgb(70, 68, 68);
@@ -36,7 +40,7 @@ input{
   color: beige;
 }
 .info{
-    max-width:270px;
+    max-width:300px;
     height:auto ;
     margin: 40px auto;
     padding: 10px;

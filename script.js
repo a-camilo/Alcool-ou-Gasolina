@@ -42,7 +42,6 @@ function combustivel(){
      
    }else if(resultado>=0.7){
       respo.innerHTML=`A gasolina é a melhor opção ${resultado}`
-      
    }
    
 }
